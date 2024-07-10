@@ -114,6 +114,9 @@ letter-spacing: 0%;
 text-align: left;
 opacity: 0.7;
 }
+.img-why{
+    padding-left: 90px;
+}
 .btn-2{
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
