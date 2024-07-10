@@ -1,0 +1,217 @@
+
+.banner{
+    height: 652px;
+    background-image: url(assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0px;
+}
+.banner-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 26px 221px 44px;
+}
+.banner-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(13, 19, 33);
+    font-family: monospace ;
+    font-size: 48px;
+    width: 1100px;
+    font-weight: 800;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.banner-des{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: rgb(13, 19, 33);
+    font-family: monospace ;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 24px;
+    opacity: 0.7;
+}
+.btn{
+    color: white;
+    margin-top: 32px;
+    background-color: rgb(13, 19, 33);
+    border-radius: 8px;
+    padding: 21px 24px 21px 24px;
+    cursor: pointer;
+}
+
+/* MAIN============================================================================================================ */
+
+.sec{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 74px 152px 88px 152px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 97px;
+}
+.div1{
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.div1 h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.div1> p{
+    margin-top: 24px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+.div2, .div3, .div4{
+    display: flex;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin: 32px 0px;
+    padding: 48px;
+}
+
+.div2, .div3, .div4 h2{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: monospace;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.div2, .div3, .div4 p{
+    color: rgb(13, 19, 33);
+font-family: monospace;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.7;
+}
+.btn-2{
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+
+/* My inspration ================================================================================== */
+.my-ins-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+}
+.my-ins-title-h2{
+    color: rgb(13, 19, 33);
+    font-family: monospace;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.my-ins-title-p{
+    color: rgb(13, 19, 33);
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+.my-ins{
+    margin: 88px 152px 0 152px;
+}
+.my-ins-video{
+    margin-left: 260px ;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    width: 1140px;
+    height: 614px;
+    
+}
+iframe{
+    border-radius: 16px;
+    padding: 32px;
+}
+
+
+
+
+
+/* My current target ========================================================================================================= */
+.my-current-target{
+    margin: 0px 150px;
+}
+
+.target{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+.target-title-main{
+    color: rgb(13, 19, 33);
+    font-family: monospace;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.target-des-main{
+    color: rgb(13, 19, 33);
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+
+/* card ----------------------- */
+
+.card-container{ 
+    display: flex;
+}
+.card{
+    background-color: beige;
+}
+
+
